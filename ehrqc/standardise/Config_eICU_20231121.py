@@ -62,7 +62,7 @@ admissions = {
         'hospital_expire_flag': 'unitdischargestatus',
     },
     'overwrite': True,
-    'staging_sql': os.environ['EHR_QC_STANDARDISE_BASE'] + '/admissions.sql'
+    'staging_sql': os.environ['EHR_QC_STANDARDISE_BASE'] + '/ehrqc/standardise/sql/stage_admissions.sql'
 }
 
 # chartevents = {
