@@ -122,7 +122,7 @@ labevents = {
 }
 
 conceptmaps = {
-    'file_name': os.environ['EICU_EHR_PIPELINE_BASE'] + '/concepts_mapped.csv',
+    'file_name': os.environ['EICU_EHR_PIPELINE_BASE'] + '/data/concept_mapping/concept_labs_mapped.csv',
     'file_separator': '\t',
     'column_mapping': {
         'concept_name': 'searchPhrase',
