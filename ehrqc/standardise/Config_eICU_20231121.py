@@ -38,7 +38,7 @@ patients = {
         'dod': None,
     },
     'overwrite': True,
-    'staging_sql': os.environ['EHR_QC_STANDARDISE_BASE'] + '/ehrqc/standardise/sql/stage_patients.sql'
+    'staging_sql': os.environ['EHR_QC_STANDARDISE_BASE'] + '/patients.sql'
 }
 
 admissions = {
